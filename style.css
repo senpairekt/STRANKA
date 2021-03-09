@@ -87,8 +87,7 @@
         font-size: 20px;
     }
     /*galleria*/
-    
-    .gallery {
+    /* .gallery {
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
@@ -97,7 +96,12 @@
     
     .Velkost-OBR-galleria {
         width: 1200px;
-        height: auto;
+        height: 300px;
+    } */
+    
+    .Velkost-OBR-galleria img {
+        width: 100%;
+        height: 600px;
     }
     /*NAV bar*/
     
