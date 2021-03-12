@@ -9,7 +9,6 @@
         width: 100%;
         margin: 0 auto;
         height: 100%;
-        position: fixed;
         background-color: #333;
     }
     /*logo*/
@@ -136,4 +135,10 @@
         background-color: black;
         transition: 1s;
         transition-property: initial;
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        .carousel-caption {
+            top: 55%;
+        }
     }
