@@ -1,3 +1,7 @@
+    a {
+        text-decoration: none;
+    }
+    
     .div-body {
         width: 50%;
         height: fit-content;
@@ -10,6 +14,7 @@
         margin: 0 auto;
         height: 100%;
         background-color: #333;
+        position: fixed;
     }
     /*logo*/
     
@@ -77,6 +82,25 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
     }
+    /*popisky obrazkov*/
+    
+    h3 {
+        background-color: #333;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+    }
+    
+    .popis {
+        background-color: #333;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    .carousel-caption-trava {
+        background-color: #333;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
     /*galleria*/
     
     .Velkost-OBR-galleria img {
@@ -139,6 +163,12 @@
     
     @media only screen and (min-width: 1200px) {
         .carousel-caption {
-            top: 55%;
+            top: 53%;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        .krava .carousel-caption {
+            top: 35%;
         }
     }
