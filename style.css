@@ -85,21 +85,24 @@
     /*popisky obrazkov*/
     
     h3 {
-        background-color: #333;
+        background-color: #FFE5CC;
         font-family: 'Montserrat', sans-serif;
         font-size: 35px;
+        color: #333;
     }
     
     .popis {
-        background-color: #333;
+        background-color: #FFE5CC;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        color: #333;
     }
     
     .carousel-caption-trava {
-        background-color: #333;
+        background-color: #FFE5CC;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        color: #333;
     }
     /*galleria*/
     
