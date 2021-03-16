@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>u jelena</title>
+    <title>U Jeleňa | Rezervácia</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -19,15 +19,16 @@
 
 
     <ul>
-        <li><a href="index.html">Domov</a></li>
-        <li><a href="index2.html">Kontakt</a></li>
-        <li><a href="index3.html">MENU</a></li>
-        <li><a href="index4.html">Galeria</a></li>
-        <li><a href="index5.html">Naše kravičky</a></li>
-        <li><a href="index6.html">Rezervacia</a></li>
+        <li><a href="index.html" style="text-decoration: none;">Domov</a></li>
+        <li><a href="index2.html" style="text-decoration: none;">Kontakt</a></li>
+        <li><a href="index3.html" style="text-decoration: none;">Menu</a></li>
+        <li><a href="index4.html" style="text-decoration: none;">Galéria</a></li>
+        <li><a href="index5.html" style="text-decoration: none;">O nás</a></li>
+        <li><a href="index6.html" style="text-decoration: none;">Rezervácia</a></li>
     </ul>
 
-
+    <div id="page-container">
+        <div id="content-wrap">
 
 
 
@@ -39,35 +40,39 @@
         <h1> U Jeleňa. </h1>
 
         <h3>Rezervácia</h3>
-
+<br>
         <div class="container">
-            <form action="/action_page.php">
+            <form action="donerezerv.html">
                 <label for="fname">Meno</label>
-                <input type="text" id="fname" name="firstname" placeholder="Vaše meno">
+                <input type="text" id="fname" name="firstname" placeholder="Meno a priezvisko" required>
 
-                <label for="lname">Číslo</label>
-                <input type="text" id="lname" name="lastname" placeholder="Číslo">
+                <label for="lname">Tel. číslo</label>
+                <input type="text" id="lname" name="lastname" placeholder="Číslo" required>
 
                 <label for="country">Stôl<label for=""></label></label>
                 <select id="country" name="country">
-              <option value="australia">Volné stoly</option>
-              <option value="canada">7</option>
-              <option value="usa">6</option>
-              <option value="usa">5</option>
+              <option value="australia">Počeť ľudí</option>
+              <option value="canada">1</option>
               <option value="usa">2</option>
+              <option value="usa">3</option>
+              <option value="usa">4</option>
+              <option value="usa">5</option>
+              <option value="usa">6</option>
+              <option value="usa">7 a viac</option>
             </select>
 
                 <label for="subject">Rezervovať</label>
-                <textarea id="subject" name="subject" placeholder="poznámka ku rezervácií..." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Poznámka ku rezervácií..." style="height:200px"></textarea>
 
                 <input type="submit" value="Rezervovať">
             </form>
         </div>
+        <br><br>
     </div>
-
-    <div class="footer">
-        <p> <a class="footr" href="index2.html">Kontakt</p></a>
-    </div>
+    
+<br>
 </body>
-
+<footer id="footer"><p>U Jeleňa | Copyright @2021 Ján Mezey</p> <a href="https://www.facebook.com"><img src="fb.png" width="2.5%"></a><a href="instagram.com"></a><img src="ig.png" width="2.5%"></a><a href="https://www.twitter.com"></a><img src="twit.png" width="2.5%"></a></footer>
+    </div>
+</div>
 </html>

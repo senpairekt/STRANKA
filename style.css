@@ -1,20 +1,25 @@
-    a {
-        im !important text-decoration: none;
-    }
-    
-    .div-body {
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #333;
+}
+
+.div-body {
         width: 50%;
         height: fit-content;
         margin: 0 auto;
         background-color: #FFE5CC;
     }
-    
-    body {
-        width: 100%;
+
+    .div-bodyhot {
+        width: 50%;
+        height: 910px;
         margin: 0 auto;
-        height: 100%;
-        background-color: #333;
+        background-color: #FFE5CC;
     }
+    
+
     /*logo*/
     
     .logo {
@@ -23,16 +28,14 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
-        padding: 2%;
+        padding-top: 2%;
     }
     /*domov obr*/
     
     .obrdomov {
-        border: 1px solid black;
-        margin: 0 auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+width: 100%;
+max-width: 800px;
+height: auto;
     }
     /*---*/
     
@@ -44,10 +47,54 @@
     
     .domovtxt {
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         padding: 1%;
     }
+    .domovtxtlink {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .domovtxtlink a{
+        color: black;
+        background-color: #333;
+        color: #FFE5CC;
+        text-decoration: none;
+        padding:10px;
+    }
+
+
+    .containeris {
+        text-align: center;
+      border-radius: 5px;
+      background-color: #FFE5CC;
+      color:black;
+      width: 550px;
+      border-top: none;
+      border-bottom: 1px solid black;
+    }
+    .containeris h3 { 
+        text-align: center;;
+        color:black;
+        font-size: 23px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .containeris p {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .domovtxtlink a:hover{
+        background-color: #FFE5CC;
+        color: #333;
+        transition: 1s;
+        text-decoration: none;
+        padding:0px;
+    }
+
     
     .map {
         text-align: center;
@@ -55,21 +102,33 @@
     
     .otv {
         text-align: center;
-        font-size: 45px;
+        font-size: 40px;
         font-family: 'Montserrat', sans-serif;
     }
     
     .mail {
-        font-size: 40px;
+        font-size: 28px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         border-top: none;
         border-bottom: 1px solid black;
-        margin: 60px auto;
+        margin:auto;
         width: 43%;
     }
     /*menu*/
     
+    .randomtext {
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+        width: 58%;
+    }
+    .randomtext1 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        width: 80%;
+    }
+
+
     .menu-menu {
         width: 50%;
         margin: 0 auto;
@@ -90,7 +149,6 @@
     /*popisky obrazkov*/
     
     h3 {
-        background-color: #FFE5CC;
         font-family: 'Montserrat', sans-serif;
         font-size: 35px;
         color: #333;
@@ -101,8 +159,19 @@
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         color: #333;
+        padding: 3%;
     }
-    
+    .biggg { font-size:180%; }
+
+
+    .carousel-inner {
+overflow: hidden;
+    }
+
+    #myCarousel {
+        width:90%; height: 100%;
+    }
+
     .carousel-caption-trava {
         background-color: #FFE5CC;
         font-family: 'Montserrat', sans-serif;
@@ -117,23 +186,31 @@
     }
     /*footer*/
     
-    .footer {
-        position: fixed;
-        left: 0;
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+      
+      #content-wrap {
+        padding-bottom: 2.5rem;   
+      }
+
+
+
+    #footer {
+        position: absolute;
         bottom: 0;
         width: 100%;
-        background-color: #333;
-        color: white;
-        text-decoration: none;
+        height: 2.5rem;
+        color: #FFE5CC;
+        font-size: 15px;
+        text-decoration: none;  
         text-align: center;
-    }
+        font-family: 'Montserrat', sans-serif;          
+      }
     
-    .footr {
-        font-size: 25px;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family: 'Montserrat', sans-serif;
-    }
+
     
     .footr :hover {
         text-decoration: none;
@@ -141,10 +218,8 @@
     /*NAV bar*/
     
     ul {
-        list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
         text-align: center;
         background-color: #333;
         width: 100%;
@@ -155,11 +230,11 @@
     }
     
     li a {
-        font-size: 30px;
+        font-size: 28px;
         display: block;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
-        padding: 14px 16px;
+        padding: 16px 19px;
         text-decoration: none;
         color: #FFE5CC;
     }
@@ -170,17 +245,6 @@
         transition-property: initial;
     }
     
-    @media only screen and (min-width: 1200px) {
-        .carousel-caption {
-            top: 53%;
-        }
-    }
-    
-    @media only screen and (min-width: 1200px) {
-        .krava .carousel-caption {
-            top: 35%;
-        }
-    }
     
     h3 {
         text-align: center;
@@ -217,5 +281,5 @@
     .container {
         background-color: #333;
         padding: 40px;
-        width: 100%;
+        width: 90%;
     }
